@@ -77,7 +77,7 @@ Next, we show the evaluation of our feature coding framework on the Euroc datase
         <center>
         <figure>
                 <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r1/numBitsLeftView.svg" alt="Bits per cofing mode left view" />
-                <figcaption>a) Bits per coding mode for left view</figcaption>
+                <figcaption>a) Bits per coding mode for the left view</figcaption>
         </figure>
         </center>
     </td>
@@ -85,7 +85,7 @@ Next, we show the evaluation of our feature coding framework on the Euroc datase
       <center>
       <figure>
                 <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r1/numBitsRightView.svg" alt="Bits per cofing mode right view" />
-                <figcaption>b) Bits per coding mode for right view</figcaption>
+                <figcaption>b) Bits per coding mode for the right view</figcaption>
        </figure>
       </center>
     </td>
@@ -119,7 +119,7 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
     <td>
         <center>
         <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r4/numBitsLeftView.svg" alt="Bits per cofing mode left view" />
+                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r4/numBitsLeftView.svg" alt="Bits per cofing mode the left view" />
                 <figcaption>a) Bits per coding mode for the left view</figcaption>
         </figure>
         </center>
@@ -127,7 +127,7 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
     <td>
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r4/numBitsRightView.svg" alt="Bits per cofing mode right view" />
+                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r4/numBitsRightView.svg" alt="Bits per cofing mode the right view" />
                 <figcaption>b) Bits per coding mode for the right view</figcaption>
        </figure>
       </center>
