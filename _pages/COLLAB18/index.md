@@ -11,6 +11,14 @@ Munich, Germany, July 2018
 In the field of robotics, collaborative Simultaneous Localization and Mapping (SLAM) is still a challenging problem. The exploration of unknown large-scale environments benefits from the joint exploration with multiple agents equipped with different abilities, such as aerial or ground-based vehicles. However, the computational capabilities and energy constraints differ significantly depending on the agent type. In this letter, we address the issue of efficient collaborative mapping by a heterogeneous robotic team using visual SLAM. We propose a system architecture, where the energy constrained team members extract local binary features and send a compressed version over a network to a more powerful team member which is capable of running several visual SLAM instances in parallel. In addition, we propose to use the information from nearby agents by detecting overlap between already mapped areas and subsequent merging of the maps. Henceforth, the participants contribute to a joint global map representation and benefit from shared map information. To this end, we extend a compression scheme for local binary features by exploiting the spatial relations between views obtained by a stereo camera system and implement a collaborative mapping scheme. We demonstrate the effectiveness of both the feature compression approach and the collaborative mapping strategy on the well-known KITTI dataset. 
 </p>
 
+<center>
+<figure>
+        <img src="{{ site.url }}/_pages/COLLAB18/assets/Scenario3_web.png" alt="Scenario" width="480" />
+        <figcaption>Heterogeneous robot team</figcaption>
+</figure>
+</center>
+
+
 ## Approach: 
 The approach is summarized in the following: 
 

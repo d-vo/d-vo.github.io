@@ -13,7 +13,7 @@ In the field of autonomous robotics, Simultaneous Localization and Mapping (SLAM
 
 <center>
 <figure>
-        <img src="{{ site.url }}/_pages/ICRA18/assets/Scenario2.png" alt="Scenario" width="480" />
+        <img src="{{ site.url }}/_pages/ICRA18/assets/Scenario3_web.png" alt="Scenario" width="480" />
         <figcaption>Heterogeneous robot team</figcaption>
 </figure>
 </center>
