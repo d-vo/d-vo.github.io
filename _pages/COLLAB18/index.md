@@ -21,6 +21,14 @@ The approach is summarized in the following:
   <li>A collaborative mapping is achieved through a map merging module</li>
 </ul>
 
+
+<center>
+<figure>
+        <img src="{{ site.url }}/_pages/COLLAB18/assets/Overview_free.png" alt="Overview" width="668" />
+        <figcaption>Proposed binary feature coding framework</figcaption>
+</figure>
+</center>
+
 Our system is based on ORB-SLAM2 [2] and we evaluated our approach on the KITTI dataset [3] and the Euroc dataset [4].
 
 ### Supplementary Material: 
