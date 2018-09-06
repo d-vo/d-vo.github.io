@@ -90,7 +90,7 @@ Here, we show additional material not included in the paper. First, we show the 
 </table>
 
 <p align="justify">
-Next, we show the evaluation of our feature coding framework on the Euroc dataset. First we evaluate the sequence with the I+S+M+P and one reference frame for the P mode: 
+Next, we show the evaluation of our feature coding framework on the Euroc dataset V101 sequence. First we evaluate the sequence with the I+S+M+P and one reference frame for the P mode: 
 </p> 
 
 <table>

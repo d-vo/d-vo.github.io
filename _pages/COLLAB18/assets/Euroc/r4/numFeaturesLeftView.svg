@@ -24,11 +24,11 @@
 <line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="363.614" y1="83.55" x2="75.728" y2="83.55"/>
 <line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="363.614" y1="39.75" x2="75.728" y2="39.75"/>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="75.728" y1="258.75" x2="363.614" y2="258.75"/>
-<path fill="#0072BD" d="M339.624,258.75v-16.396h-47.981v16.396H339.624z M243.661,258.75V114.99H195.68v143.76H243.661z
-	 M147.699,258.75v-58.843H99.718v58.843H147.699z"/>
-<rect x="99.718" y="199.907" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="58.843"/>
-<rect x="195.68" y="114.99" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="143.76"/>
-<rect x="291.643" y="242.354" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="16.396"/>
+<path fill="#0072BD" d="M339.624,258.75v-3.563h-47.981v3.563H339.624z M243.661,258.75V101.569H195.68V258.75H243.661z
+	 M147.699,258.75v-58.257H99.718v58.257H147.699z"/>
+<rect x="99.718" y="200.493" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="58.257"/>
+<rect x="195.68" y="101.569" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="157.181"/>
+<rect x="291.643" y="255.187" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="3.563"/>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="75.728" y1="258.75" x2="363.614" y2="258.75"/>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="75.728" y1="39.75" x2="363.614" y2="39.75"/>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="123.708" y1="258.75" x2="123.708" y2="255.87"/>
