@@ -179,7 +179,7 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
 Next, we timings are provided for the Euroc dataset V101 sequence:
 </p>
 
-<p style="font-size:x-small;">
+<div style="font-size:small;">
 <table align="center">
   <tr>
         <td style="text-align: center; vertical-align: middle;"></td>
@@ -222,7 +222,7 @@ Next, we timings are provided for the Euroc dataset V101 sequence:
         <td style="text-align: center; vertical-align: middle;">161.5</td>
   </tr>
 </table>
-</p>
+</div>
 
 <p align="justify">
 When changing from a single to four reference frames, the inter-coding mode is used more frequently (compare figures c+d). The encoding time increases from 16.4 ms to 26.3 ms. The measurements were performed on an Intel i7-7700 CPU @ 3.60GHz, with 1200 features per frame (ORB-SLAM2 default settings).
