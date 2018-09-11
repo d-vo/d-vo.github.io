@@ -14,7 +14,7 @@ In the field of robotics, collaborative Simultaneous Localization and Mapping (S
 <center>
 <figure>
         <img src="{{ site.url }}/_pages/COLLAB18/assets/Scenario3_web.png" alt="Scenario" width="480" />
-        <figcaption>Heterogeneous robot team</figcaption>
+        <figcaption>heterogeneous robot team</figcaption>
 </figure>
 </center>
 
@@ -176,8 +176,60 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
 </table>
 
 <p align="justify">
-When changing from a single to four reference frames, the inter-coding mode is used more frequently (compare figures c+d). The encoding time increases from 16.38 ms to 22.46 ms. The measurements were performed on an Intel i7-7700 CPU @ 3.60GHz, with 1200 features per frame (ORB-SLAM2 default settings).
+Next, we timings are provided for the Euroc dataset V101 sequence:
 </p>
+
+<p style="font-size:x-small;">
+<table align="center">
+  <tr>
+        <td style="text-align: center; vertical-align: middle;"></td>
+        <td style="text-align: center; vertical-align: middle;"><b>I</b></td>
+        <td style="text-align: center; vertical-align: middle;"><b>I+M</b></td>
+        <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>1</sub>+S</b></td>
+        <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>1</sub>+S+M</b></td>
+        <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>4</sub>+S+M</b></td>
+        <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>1</sub>+S+M SF</b></td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">ORB</td>
+        <td style="text-align: center; vertical-align: middle;" colspan="6">14.5 ms</td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">encoding</td>
+        <td style="text-align: center; vertical-align: middle;">11.5 ms</td>
+        <td style="text-align: center; vertical-align: middle;">12.8 ms</td>
+        <td style="text-align: center; vertical-align: middle;">15.6 ms</td>
+        <td style="text-align: center; vertical-align: middle;">16.4 ms</td>
+        <td style="text-align: center; vertical-align: middle;">26.3 ms</td>
+        <td style="text-align: center; vertical-align: middle;">14.3 ms</td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">decoding</td>
+        <td style="text-align: center; vertical-align: middle;">12.6 ms</td>
+        <td style="text-align: center; vertical-align: middle;">13.3 ms</td>
+        <td style="text-align: center; vertical-align: middle;">13.8 ms</td>
+        <td style="text-align: center; vertical-align: middle;">13.9 ms</td>
+        <td style="text-align: center; vertical-align: middle;">13.5 ms</td>
+        <td style="text-align: center; vertical-align: middle;">11.1 ms</td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">bits/feature</td>
+        <td style="text-align: center; vertical-align: middle;">224.5</td>
+        <td style="text-align: center; vertical-align: middle;">208.9</td>
+        <td style="text-align: center; vertical-align: middle;">170.4</td>
+        <td style="text-align: center; vertical-align: middle;">165.3</td>
+        <td style="text-align: center; vertical-align: middle;">151.5</td>
+        <td style="text-align: center; vertical-align: middle;">161.5</td>
+  </tr>
+</table>
+</p>
+
+<p align="justify">
+When changing from a single to four reference frames, the inter-coding mode is used more frequently (compare figures c+d). The encoding time increases from 16.4 ms to 26.3 ms. The measurements were performed on an Intel i7-7700 CPU @ 3.60GHz, with 1200 features per frame (ORB-SLAM2 default settings).
+</p>
+
+
+
 
 ### Source Code:
 

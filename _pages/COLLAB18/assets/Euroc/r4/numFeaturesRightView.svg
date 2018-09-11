@@ -14,9 +14,10 @@
 </g>
 <rect x="18" y="18" fill="#FFFFFF" width="381.6" height="288"/>
 <rect x="75.728" y="39.75" fill="#FFFFFF" width="287.887" height="219"/>
-<line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="123.708" y1="258.75" x2="123.708" y2="39.75"/>
-<line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="219.671" y1="258.75" x2="219.671" y2="39.75"/>
-<line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="315.633" y1="258.75" x2="315.633" y2="39.75"/>
+<line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="111.713" y1="258.75" x2="111.713" y2="39.75"/>
+<line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="183.685" y1="258.75" x2="183.685" y2="39.75"/>
+<line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="255.656" y1="258.75" x2="255.656" y2="39.75"/>
+<line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="327.628" y1="258.75" x2="327.628" y2="39.75"/>
 <line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="363.614" y1="258.75" x2="75.728" y2="258.75"/>
 <line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="363.614" y1="214.95" x2="75.728" y2="214.95"/>
 <line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="363.614" y1="171.15" x2="75.728" y2="171.15"/>
@@ -24,22 +25,26 @@
 <line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="363.614" y1="83.55" x2="75.728" y2="83.55"/>
 <line opacity="0.149" fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="363.614" y1="39.75" x2="75.728" y2="39.75"/>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linejoin="round" stroke-miterlimit="10" x1="75.728" y1="258.75" x2="363.614" y2="258.75"/>
-<path fill="#0072BD" d="M339.624,258.75v-27.392h-47.981v27.392H339.624z M243.661,258.75V115.848H195.68V258.75H243.661z
-	 M147.699,258.75v-45.306H99.718v45.306H147.699z"/>
-<rect x="99.718" y="213.444" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="45.306"/>
-<rect x="195.68" y="115.848" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="142.902"/>
-<rect x="291.643" y="231.358" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="47.981" height="27.392"/>
+<path fill="#0072BD" d="M345.621,258.75v-3.401h-35.985v3.401H345.621z M273.649,258.75v-27.392h-35.985v27.392H273.649z
+	 M201.678,258.75V115.848h-35.986V258.75H201.678z M129.706,258.75v-45.306H93.72v45.306H129.706z"/>
+<rect x="93.72" y="213.444" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="35.986" height="45.306"/>
+<rect x="165.692" y="115.848" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="35.986" height="142.902"/>
+<rect x="237.664" y="231.358" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="35.985" height="27.392"/>
+<rect x="309.636" y="255.349" fill="none" stroke="#000000" stroke-width="0.4999" stroke-miterlimit="10" width="35.985" height="3.401"/>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="75.728" y1="258.75" x2="363.614" y2="258.75"/>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="75.728" y1="39.75" x2="363.614" y2="39.75"/>
-<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="123.708" y1="258.75" x2="123.708" y2="255.87"/>
-<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="219.671" y1="258.75" x2="219.671" y2="255.87"/>
-<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="315.633" y1="258.75" x2="315.633" y2="255.87"/>
-<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="123.708" y1="39.75" x2="123.708" y2="42.63"/>
-<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="219.671" y1="39.75" x2="219.671" y2="42.63"/>
-<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="315.633" y1="39.75" x2="315.633" y2="42.63"/>
-<text transform="matrix(0.9996 0 0 1 95.9692 278.9502)" fill="#262626" font-family="'Arial-BoldMT'" font-size="15.9998">INTRA</text>
-<text transform="matrix(0.9996 0 0 1 192.6816 278.9502)" fill="#262626" font-family="'Arial-BoldMT'" font-size="15.9998">INTER</text>
-<text transform="matrix(0.9996 0 0 1 280.3965 278.9502)" fill="#262626" font-family="'Arial-BoldMT'" font-size="15.9998">STEREO</text>
+<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="111.713" y1="258.75" x2="111.713" y2="255.87"/>
+<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="183.685" y1="258.75" x2="183.685" y2="255.87"/>
+<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="255.656" y1="258.75" x2="255.656" y2="255.87"/>
+<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="327.628" y1="258.75" x2="327.628" y2="255.87"/>
+<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="111.713" y1="39.75" x2="111.713" y2="42.63"/>
+<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="183.685" y1="39.75" x2="183.685" y2="42.63"/>
+<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="255.656" y1="39.75" x2="255.656" y2="42.63"/>
+<line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="327.628" y1="39.75" x2="327.628" y2="42.63"/>
+<text transform="matrix(0.9996 0 0 1 83.9741 278.9502)" fill="#262626" font-family="'Arial-BoldMT'" font-size="15.9998">INTRA</text>
+<text transform="matrix(0.9996 0 0 1 156.6958 278.9502)" fill="#262626" font-family="'Arial-BoldMT'" font-size="15.9998">INTER</text>
+<text transform="matrix(0.9996 0 0 1 220.4199 278.9502)" fill="#262626" font-family="'Arial-BoldMT'" font-size="15.9998">STEREO</text>
+<text transform="matrix(0.9996 0 0 1 306.6367 278.9502)" fill="#262626" font-family="'Arial-BoldMT'" font-size="15.9998">SKIP</text>
 <text transform="matrix(0.9996 0 0 1 155.9458 301.7002)" fill="#262626" font-family="'Arial-BoldMT'" font-size="17.6003">coding mode</text>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="75.728" y1="258.75" x2="75.728" y2="39.75"/>
 <line fill="none" stroke="#262626" stroke-width="0.4999" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="363.614" y1="258.75" x2="363.614" y2="39.75"/>
