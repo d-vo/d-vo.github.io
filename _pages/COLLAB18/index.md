@@ -2,18 +2,18 @@
 permalink: "/COLLAB18/"
 ---
 
-## Collaborative Visual SLAM for Heterogeneous Robotic Exploration Teams using Compressed Feature Exchange
+## Collaborative Visual SLAM using Compressed Feature Exchange
 *Under review* \\
 Munich, Germany, July 2018
 
 ### Abstract:
 <p align="justify">
-In the field of robotics, collaborative Simultaneous Localization and Mapping (SLAM) is still a challenging problem. The exploration of unknown large-scale environments benefits from the joint exploration with multiple agents equipped with different abilities, such as aerial or ground-based vehicles. However, the computational capabilities and energy constraints differ significantly depending on the agent type. In this letter, we address the issue of efficient collaborative mapping by a heterogeneous robotic team using visual SLAM. We propose a system architecture, where the energy constrained team members extract local binary features and send a compressed version over a network to a more powerful team member which is capable of running several visual SLAM instances in parallel. 
+In the field of robotics, collaborative Simultaneous Localization and Mapping (SLAM) is still a challenging problem. The exploration of unknown large-scale environments benefits from sharing the work among multiple agents possibly equipped with different abilities, such as aerial or ground-based vehicles. In this letter, we specifically address data-efficiency for the exchange of visual information in a collaborative visual SLAM setup. For efficient data exchange, we extend a compression scheme for local binary features by two additional modes providing support for local features with additional depth information and an inter-view coding mode exploiting the spatial relations between views of a stereo camera system. To demonstrate the coding framework, we use a centralized system architecture based on ORB-SLAM2, where energy constrained agents extract local binary features and send a compressed version over a network to a more powerful agent, which is capable of running several visual SLAM instances in parallel. We exploit the information from other agents by detecting overlap between already mapped areas and subsequent merging of the maps. Henceforth, the participants contribute to a joint representation and benefit from shared map information. We show a reduction in terms of data-rate by 70.8 % for the feature compression and a reduction in absolute trajectory error by 53.7 % using the collaborative mapping strategy on the well-known KITTI dataset. For the benefit of the community, we provide a public version of the source code.
 </p>
 
 <center>
 <figure>
-        <img src="{{ site.url }}/_pages/COLLAB18/assets/Scenario3_web.png" alt="Scenario" width="480" />
+        <img src="{{ site.url }}/_pages/COLLAB18/assets/Scenario3_web.png" alt="Scenario" width="540" />
         <figcaption>heterogeneous robot team</figcaption>
 </figure>
 </center>
@@ -28,19 +28,18 @@ In addition, we propose to use the information from nearby agents by detecting o
 The approach is summarized in the following: 
 
 <ul>
-  <li>We extend our feature coding framework [1] to support multi-view coding</li>
-  <li>We propose an architecture, where local features are extracted at thin agents, encoded and transmitted to base agents</li>
-  <li>The base agents run multiple visual SLAM instances in parallel</li>
-  <li>A collaborative mapping is achieved through a map merging module</li>
+  <li>We extend our feature coding framework [1] to support depth value coding</li>
+  <li>We complete the feature coding framework by supporting multi-view coding</li>
+  <li>We demonstrate the compression in a centralized collabortive visual SLAM architecture.</li>
 </ul>
 
 
 
-Our system is based on ORB-SLAM2 [2] and we evaluated our approach on the KITTI dataset [3] and the Euroc dataset [4]. Our feature coding framework is based on [1] and adds a stereo video coding mode. 
+Our system is based on ORB-SLAM2 [2] and we evaluated our approach on the KITTI dataset [3] and the Euroc dataset [4]. Our feature coding framework is based on [1] and adds a depth value and a stereo coding mode. 
 
 <center>
 <figure>
-        <img src="{{ site.url }}/_pages/COLLAB18/assets/Overview_free.png" alt="Overview" width="668" />
+        <img src="{{ site.url }}/_pages/COLLAB18/assets/Overview_free.svg" alt="Overview" width="875" />
         <figcaption>Proposed improved binary feature coding framework</figcaption>
 </figure>
 </center>
@@ -55,7 +54,7 @@ Here, we show additional material not included in the paper. First, we show the 
     <td width="50%">
         <center>
         <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/kitti00-1.svg" alt="Kitti 00-1" />
+                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/Kitti00-1.svg" alt="Kitti 00-1" />
                 <figcaption>KITTI 00-1</figcaption>
         </figure>
         </center>
@@ -63,7 +62,7 @@ Here, we show additional material not included in the paper. First, we show the 
     <td width="50%">
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/kitti00-2.svg" alt="Kitti 00-2" />
+                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/Kitti00-2.svg" alt="Kitti 00-2" />
                 <figcaption>KITTI 00-2</figcaption>
        </figure>
       </center>
@@ -73,7 +72,7 @@ Here, we show additional material not included in the paper. First, we show the 
     <td width="50%">
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/kitti00-3.svg" alt="Kitti 00-3" />
+                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/Kitti00-3.svg" alt="Kitti 00-3" />
                 <figcaption>KITTI 00-3</figcaption>
       </figure>
       </center>
@@ -90,7 +89,7 @@ Here, we show additional material not included in the paper. First, we show the 
 </table>
 
 <p align="justify">
-Next, we show the evaluation of our feature coding framework on the Euroc dataset V101 sequence. First we evaluate the sequence with the I+S+M+P and one reference frame for the P mode: 
+Next, we show the evaluation of our feature coding framework on the Euroc dataset V101 sequence. First we evaluate the sequence with the I+S+M+P and one reference frame for the P mode. For the left view, we added the costs for coding the depth information, as used for the monocular version.  
 </p> 
 
 <table>
@@ -133,7 +132,7 @@ Next, we show the evaluation of our feature coding framework on the Euroc datase
 </table>
 
 <p align="justify">
-Next, we evaluate the sequence with the I+S+M+P and four reference frames for the P mode: 
+Next, we evaluate the sequence with the I+S+M+P and four reference frames for the P mode. Again, the left view has additionally the depth values included. 
 </p>
 
 <table>
@@ -176,23 +175,23 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
 </table>
 
 <p align="justify">
-Next, we timings are provided for the Euroc dataset V101 sequence:
+Next, timings are provided for the Euroc dataset V101 sequence:
 </p>
+
 
 <div style="font-size:small;">
 <table align="center">
   <tr>
-        <td style="text-align: center; vertical-align: middle;"></td>
+        <td style="text-align: center; vertical-align: middle;">Stereo</td>
         <td style="text-align: center; vertical-align: middle;"><b>I</b></td>
         <td style="text-align: center; vertical-align: middle;"><b>I+M</b></td>
         <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>1</sub>+S</b></td>
         <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>1</sub>+S+M</b></td>
         <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>4</sub>+S+M</b></td>
-        <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>1</sub>+S+M SF</b></td>
   </tr>
   <tr>
         <td style="text-align: center; vertical-align: middle;">ORB</td>
-        <td style="text-align: center; vertical-align: middle;" colspan="6">14.5 ms</td>
+        <td style="text-align: center; vertical-align: middle;" colspan="5">14.5 ms</td>
   </tr>
   <tr>
         <td style="text-align: center; vertical-align: middle;">encoding</td>
@@ -201,7 +200,6 @@ Next, we timings are provided for the Euroc dataset V101 sequence:
         <td style="text-align: center; vertical-align: middle;">15.6 ms</td>
         <td style="text-align: center; vertical-align: middle;">16.4 ms</td>
         <td style="text-align: center; vertical-align: middle;">26.3 ms</td>
-        <td style="text-align: center; vertical-align: middle;">14.3 ms</td>
   </tr>
   <tr>
         <td style="text-align: center; vertical-align: middle;">decoding</td>
@@ -210,7 +208,6 @@ Next, we timings are provided for the Euroc dataset V101 sequence:
         <td style="text-align: center; vertical-align: middle;">13.8 ms</td>
         <td style="text-align: center; vertical-align: middle;">13.9 ms</td>
         <td style="text-align: center; vertical-align: middle;">13.5 ms</td>
-        <td style="text-align: center; vertical-align: middle;">11.1 ms</td>
   </tr>
   <tr>
         <td style="text-align: center; vertical-align: middle;">bits/feature</td>
@@ -219,10 +216,57 @@ Next, we timings are provided for the Euroc dataset V101 sequence:
         <td style="text-align: center; vertical-align: middle;">170.4</td>
         <td style="text-align: center; vertical-align: middle;">165.3</td>
         <td style="text-align: center; vertical-align: middle;">151.5</td>
-        <td style="text-align: center; vertical-align: middle;">161.5</td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">#features</td>
+        <td style="text-align: center; vertical-align: middle;">2x1.2k</td>
+        <td style="text-align: center; vertical-align: middle;">2x1.2k</td>
+        <td style="text-align: center; vertical-align: middle;">2x1.2k</td>
+        <td style="text-align: center; vertical-align: middle;">2x1.2k</td>
+        <td style="text-align: center; vertical-align: middle;">2x1.2k</td>
   </tr>
 </table>
 </div>
+
+<p align="justify">
+Next, we present the results for Mono+Depth
+</p>
+
+<div style="font-size:small;">
+<table align="center">
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">Mono+Depth</td>
+        <td style="text-align: center; vertical-align: middle;"><b>I+D</b></td>
+        <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>1</sub>+S+D</b></td>
+        <td style="text-align: center; vertical-align: middle;"><b>I+P<sub>4</sub>+S+D</b></td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">encoding</td>
+        <td style="text-align: center; vertical-align: middle;">7.7 ms</td>
+        <td style="text-align: center; vertical-align: middle;">9.8 ms</td>
+        <td style="text-align: center; vertical-align: middle;">13.4 ms</td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">decoding</td>
+        <td style="text-align: center; vertical-align: middle;">8.6 ms</td>
+        <td style="text-align: center; vertical-align: middle;">8.9 ms</td>
+        <td style="text-align: center; vertical-align: middle;">8.9 ms</td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">bits/feature</td>
+        <td style="text-align: center; vertical-align: middle;">230.1</td>
+        <td style="text-align: center; vertical-align: middle;">175.8</td>
+        <td style="text-align: center; vertical-align: middle;">160.1</td>
+  </tr>
+  <tr>
+        <td style="text-align: center; vertical-align: middle;">#features</td>
+        <td style="text-align: center; vertical-align: middle;">1.2k</td>
+        <td style="text-align: center; vertical-align: middle;">1.2k</td>
+        <td style="text-align: center; vertical-align: middle;">1.2k</td>
+  </tr>
+</table>
+</div>
+
 
 <p align="justify">
 When changing from a single to four reference frames, the inter-coding mode is used more frequently (compare figures c+d). The encoding time increases from 16.4 ms to 26.3 ms. The measurements were performed on an Intel i7-7700 CPU @ 3.60GHz, with 1200 features per frame (ORB-SLAM2 default settings).
@@ -246,4 +290,4 @@ Please contact us via dominik (dot) van-opdenbosch [at] tum (dot) de using "COLL
 </ol>
 
 
-Return to [main page](/).
+Return to [main page].

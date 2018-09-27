@@ -25,6 +25,6 @@ Brisbane, Australia, Mai 2018
 Athens, Greece, Oktober 2018
 
 5. D. Van Opdenbosch, E. Steinbach\\
-**[Collaborative Visual SLAM for Heterogeneous Robotic Exploration Teams using Compressed Feature Exchange](/COLLAB18/)**\\
+**[Collaborative Visual SLAM using Compressed Feature Exchange](/COLLAB18/)**\\
 *Under review*\\
 Munich, Germany, July 2018
