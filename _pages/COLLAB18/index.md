@@ -44,7 +44,12 @@ Our system is based on ORB-SLAM2 [2] and we evaluated our approach on the KITTI 
 </figure>
 </center>
 
+## Video: 
+
+<iframe width="832" height="468" src="https://www.youtube.com/embed/XbS3KZIxobo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ### Supplementary Material: 
+
 <p align="justify">
 Here, we show additional material not included in the paper. First, we show the resulting trajectories of our experiment by splitting KITTI 00 into three disjunct parts. The ground truth is shown alongside the trajectory estimated by our collaborative approach. 
 </p>
