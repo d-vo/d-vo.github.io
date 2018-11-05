@@ -130,6 +130,9 @@ Our modified ORB-SLAM2 version can be found [here](https://github.com/d-vo/remot
 The binary feature compression pipeline can be found [here](https://github.com/d-vo/featureCompression).\\
 We plan to release an updated version in late 2018. 
 
+
+**Update 05.11.2018:** A newer version is available [here](/RAL18/).
+
 Please contact us via dominik (dot) van-opdenbosch [at] tum (dot) de using "ICRA2018" as subject.
 
 

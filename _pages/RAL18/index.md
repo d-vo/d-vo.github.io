@@ -1,19 +1,19 @@
 ---
-permalink: "/COLLAB18/"
+permalink: "/RAL18/"
 ---
 
 ## Collaborative Visual SLAM using Compressed Feature Exchange
-*Under review* \\
-Munich, Germany, July 2018
+*IEEE Robotics and Automation Letters (RAL, accepted for publication)* \\
+Munich, Germany, October 2018, [IEEE Preprint](https://ieeexplore.ieee.org/document/8516392/)
 
-### Abstract:
+## Abstract:
 <p align="justify">
 In the field of robotics, collaborative Simultaneous Localization and Mapping (SLAM) is still a challenging problem. The exploration of unknown large-scale environments benefits from sharing the work among multiple agents possibly equipped with different abilities, such as aerial or ground-based vehicles. In this letter, we specifically address data-efficiency for the exchange of visual information in a collaborative visual SLAM setup. For efficient data exchange, we extend a compression scheme for local binary features by two additional modes providing support for local features with additional depth information and an inter-view coding mode exploiting the spatial relations between views of a stereo camera system. To demonstrate the coding framework, we use a centralized system architecture based on ORB-SLAM2, where energy constrained agents extract local binary features and send a compressed version over a network to a more powerful agent, which is capable of running several visual SLAM instances in parallel. We exploit the information from other agents by detecting overlap between already mapped areas and subsequent merging of the maps. Henceforth, the participants contribute to a joint representation and benefit from shared map information. We show a reduction in terms of data-rate by 70.8 % for the feature compression and a reduction in absolute trajectory error by 53.7 % using the collaborative mapping strategy on the well-known KITTI dataset. For the benefit of the community, we provide a public version of the source code.
 </p>
 
 <center>
 <figure>
-        <img src="{{ site.url }}/_pages/COLLAB18/assets/Scenario3_web.png" alt="Scenario" width="540" />
+        <img src="{{ site.url }}/_pages/RAL18/assets/Scenario3_web.png" alt="Scenario" width="540" />
         <figcaption>heterogeneous robot team</figcaption>
 </figure>
 </center>
@@ -39,14 +39,14 @@ Our system is based on ORB-SLAM2 [2] and we evaluated our approach on the KITTI 
 
 <center>
 <figure>
-        <img src="{{ site.url }}/_pages/COLLAB18/assets/Overview_free.svg" alt="Overview" width="875" />
+        <img src="{{ site.url }}/_pages/RAL18/assets/Overview_free.svg" alt="Overview" width="875" />
         <figcaption>Proposed improved binary feature coding framework</figcaption>
 </figure>
 </center>
 
 ## Video: 
 
-<iframe width="832" height="468" src="https://www.youtube.com/embed/XbS3KZIxobo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="832" height="468" src="https://www.youtube.com/embed/_Jhf5a5Z0vg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Supplementary Material: 
 
@@ -59,7 +59,7 @@ Here, we show additional material not included in the paper. First, we show the 
     <td width="50%">
         <center>
         <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/Kitti00-1.svg" alt="Kitti 00-1" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Kitti/Kitti00-1.svg" alt="Kitti 00-1" />
                 <figcaption>KITTI 00-1</figcaption>
         </figure>
         </center>
@@ -67,7 +67,7 @@ Here, we show additional material not included in the paper. First, we show the 
     <td width="50%">
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/Kitti00-2.svg" alt="Kitti 00-2" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Kitti/Kitti00-2.svg" alt="Kitti 00-2" />
                 <figcaption>KITTI 00-2</figcaption>
        </figure>
       </center>
@@ -77,7 +77,7 @@ Here, we show additional material not included in the paper. First, we show the 
     <td width="50%">
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/Kitti00-3.svg" alt="Kitti 00-3" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Kitti/Kitti00-3.svg" alt="Kitti 00-3" />
                 <figcaption>KITTI 00-3</figcaption>
       </figure>
       </center>
@@ -85,7 +85,7 @@ Here, we show additional material not included in the paper. First, we show the 
     <td width="50%">
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Kitti/Eyecatcher3.png" alt="Kitti Map" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Kitti/Eyecatcher3.png" alt="Kitti Map" />
                 <figcaption>Collaborative Map</figcaption>
       </figure>
       </center>
@@ -102,7 +102,7 @@ Next, we show the evaluation of our feature coding framework on the Euroc datase
     <td>
         <center>
         <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r1/numBitsLeftView.svg" alt="Bits per cofing mode left view" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Euroc/r1/numBitsLeftView.svg" alt="Bits per cofing mode left view" />
                 <figcaption>a) Bits per coding mode for the left view</figcaption>
         </figure>
         </center>
@@ -110,7 +110,7 @@ Next, we show the evaluation of our feature coding framework on the Euroc datase
     <td>
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r1/numBitsRightView.svg" alt="Bits per cofing mode right view" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Euroc/r1/numBitsRightView.svg" alt="Bits per cofing mode right view" />
                 <figcaption>b) Bits per coding mode for the right view</figcaption>
        </figure>
       </center>
@@ -120,7 +120,7 @@ Next, we show the evaluation of our feature coding framework on the Euroc datase
     <td>
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r1/numFeaturesLeftView.svg" alt="Percentage of used coding modes left view" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Euroc/r1/numFeaturesLeftView.svg" alt="Percentage of used coding modes left view" />
                 <figcaption>c) Percentage of used coding modes for the left view</figcaption>
       </figure>
       </center>
@@ -128,7 +128,7 @@ Next, we show the evaluation of our feature coding framework on the Euroc datase
     <td>
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r1/numFeaturesRightView.svg" alt="Percentage of used coding modes right view" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Euroc/r1/numFeaturesRightView.svg" alt="Percentage of used coding modes right view" />
                 <figcaption>d) Percentage of used coding modes for the right view</figcaption>
       </figure>
       </center>
@@ -145,7 +145,7 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
     <td>
         <center>
         <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r4/numBitsLeftView.svg" alt="Bits per cofing mode the left view" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Euroc/r4/numBitsLeftView.svg" alt="Bits per cofing mode the left view" />
                 <figcaption>a) Bits per coding mode for the left view</figcaption>
         </figure>
         </center>
@@ -153,7 +153,7 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
     <td>
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r4/numBitsRightView.svg" alt="Bits per cofing mode the right view" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Euroc/r4/numBitsRightView.svg" alt="Bits per cofing mode the right view" />
                 <figcaption>b) Bits per coding mode for the right view</figcaption>
        </figure>
       </center>
@@ -163,7 +163,7 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
     <td>
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r4/numFeaturesLeftView.svg" alt="Percentage of used coding modes left view" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Euroc/r4/numFeaturesLeftView.svg" alt="Percentage of used coding modes left view" />
                 <figcaption>c) Percentage of used coding modes for the left view</figcaption>
       </figure>
       </center>
@@ -171,7 +171,7 @@ Next, we evaluate the sequence with the I+S+M+P and four reference frames for th
     <td>
       <center>
       <figure>
-                <img src="{{ site.url }}/_pages/COLLAB18/assets/Euroc/r4/numFeaturesRightView.svg" alt="Percentage of used coding modes right view" />
+                <img src="{{ site.url }}/_pages/RAL18/assets/Euroc/r4/numFeaturesRightView.svg" alt="Percentage of used coding modes right view" />
                 <figcaption>d) Percentage of used coding modes for the right view</figcaption>
       </figure>
       </center>
@@ -278,13 +278,29 @@ When changing from a single to four reference frames, the inter-coding mode is u
 </p>
 
 
+## Citation:
+
+If you refer to our map compression approach in an academic work, please cite:
+
+{% raw %}
+	@article{VanOpdenbosch2018,
+	author = {{Van Opdenbosch}, Dominik and Steinbach, Eckehard},
+	journal = {IEEE Robotics and Automation Letters (RAL)},
+	title = {{Collaborative Visual SLAM using Compressed Feature Exchange}},
+	year = {2018}
+	}
+ {% endraw %}
+
+Preprint is available online at IEEE [here](https://ieeexplore.ieee.org/document/8516392/)
 
 
-### Source Code:
 
-We plan to release the source code upon publication. 
+## Source Code:
 
-Please contact us via dominik (dot) van-opdenbosch [at] tum (dot) de using "COLLAB2018" as subject.
+The source code for the collaborative visual SLAM system can be found [here](https://github.com/d-vo/collab_orb_slam2).\\
+The binary feature compression pipeline can be found [here](https://github.com/d-vo/featureCompression2).
+
+Please contact us via dominik (dot) van-opdenbosch [at] tum (dot) de using "RAL2018" as subject.
 
 ## References: 
 <ol>
@@ -295,4 +311,4 @@ Please contact us via dominik (dot) van-opdenbosch [at] tum (dot) de using "COLL
 </ol>
 
 
-Return to [main page].
+Return to [main page](/).

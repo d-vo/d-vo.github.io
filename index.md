@@ -22,9 +22,9 @@ Brisbane, Australia, Mai 2018
 4. D. Van Opdenbosch, E. Steinbach\\
 **Flexible Rate Allocation for Binary Feature Compression**\\
 *IEEE International Conference on Image Processing (ICIP)*\\
-Athens, Greece, Oktober 2018
+Athens, Greece, October 2018
 
 5. D. Van Opdenbosch, E. Steinbach\\
-**[Collaborative Visual SLAM using Compressed Feature Exchange](/COLLAB18/)**\\
-*Under review*\\
-Munich, Germany, July 2018
+**[Collaborative Visual SLAM using Compressed Feature Exchange](/RAL18/)**\\
+*IEEE Robotics and Automation Letters (RAL, accepted for publication)*\\
+Munich, Germany, October 2018
