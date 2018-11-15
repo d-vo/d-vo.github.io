@@ -26,5 +26,5 @@ Athens, Greece, October 2018
 
 5. D. Van Opdenbosch, E. Steinbach\\
 **[Collaborative Visual SLAM using Compressed Feature Exchange](/RAL18/)**\\
-*IEEE Robotics and Automation Letters (RAL, accepted for publication)*\\
-Munich, Germany, October 2018
+*IEEE Robotics and Automation Letters (RAL)*\\
+Munich, Germany, January 2019

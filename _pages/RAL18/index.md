@@ -3,8 +3,8 @@ permalink: "/RAL18/"
 ---
 
 ## Collaborative Visual SLAM using Compressed Feature Exchange
-*IEEE Robotics and Automation Letters (RAL, accepted for publication)* \\
-Munich, Germany, October 2018, [IEEE Preprint](https://ieeexplore.ieee.org/document/8516392/)
+*IEEE Robotics and Automation Letters* \\
+Munich, Germany, January 2019, [IEEE Preprint](https://ieeexplore.ieee.org/document/8516392/)
 
 ## Abstract:
 <p align="justify">
@@ -283,11 +283,14 @@ When changing from a single to four reference frames, the inter-coding mode is u
 If you refer to our map compression approach in an academic work, please cite:
 
 {% raw %}
-	@article{VanOpdenbosch2018,
+	@article{VanOpdenbosch2019,
 	author = {{Van Opdenbosch}, Dominik and Steinbach, Eckehard},
 	journal = {IEEE Robotics and Automation Letters (RAL)},
+	number = {1},
+	pages = {57--64},
 	title = {{Collaborative Visual SLAM using Compressed Feature Exchange}},
-	year = {2018}
+	volume = {4},
+	year = {2019}
 	}
  {% endraw %}
 
