@@ -4,7 +4,7 @@ permalink: "/RAL18/"
 
 ## Collaborative Visual SLAM using Compressed Feature Exchange
 *IEEE Robotics and Automation Letters* \\
-Munich, Germany, January 2019, [IEEE Preprint](https://ieeexplore.ieee.org/document/8516392/)
+Munich, Germany, January 2019, [Preprint LMT](https://intern.lkn.ei.tum.de/forschung/publikationen/dateien/Van%20Opdenbosch2019CollaborativeVisualSLAMusing.pdf), [IEEE](https://ieeexplore.ieee.org/document/8516392/)
 
 ## Abstract:
 <p align="justify">
@@ -304,6 +304,11 @@ The source code for the collaborative visual SLAM system can be found [here](htt
 The binary feature compression pipeline can be found [here](https://github.com/d-vo/featureCompression2).
 
 Please contact us via dominik (dot) van-opdenbosch [at] tum (dot) de using "RAL2018" as subject.
+
+## Knwon Issues:
+
+The two images in Figure 5 are mixed up. 
+
 
 ## References: 
 <ol>
